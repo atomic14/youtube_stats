@@ -1,0 +1,11 @@
+jupyter
+matplotlib
+ipython
+pandas
+numpy
+dateparser
+wordcloud
+nltk
+contractions
+pytube
+tqdm
