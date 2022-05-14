@@ -25,3 +25,15 @@ jupyter -notebook .
 ```
 
 The interesting file is `youtube.ipynb` - change the channel URL to one you are interested in.
+
+Change the channel name and channel URL:
+
+```python
+# we'll cached the channel vidoes in a json file with this name
+CHANNEL_NAME = "great_scott"
+# the channel URL
+CHANNEL_URL = "https://www.youtube.com/channel/UC6mIxFTvXkWQVEHPsEdflzQ"
+# how many videos to run against - more videos may give better stats
+# but you'll be going further back in time so may be less relevant...
+MAX_VIDEOS = 300
+```
